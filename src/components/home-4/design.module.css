@@ -1,0 +1,113 @@
+.main {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .btn_talk{
+  flex-basis: 40%;
+  width: 100%;
+}
+
+.divs{
+  width: 70%;
+}
+
+.btn {
+  cursor: pointer;
+  width: 10%;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  transition-duration: 1s;
+}
+.btn:hover {
+  background-color: #282c34;
+  color: white;
+}
+
+.btn_group {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 9px 0 10px;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.btn_favriote {
+  padding: 10px 15px;
+  display: inline-block;
+  text-align: center;
+  background: #eaeaea;
+  color: #333;
+  border: #eaeaea solid 1px;
+  transition: 0.5s;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.btn_favriote:hover {
+  background: #333;
+  color: #fff;
+}
+
+.btn_Details {
+  padding: 10px 15px;
+  display: inline-block;
+  text-align: center;
+  background: #58bf93;
+  color: white;
+  border: #eaeaea solid 1px;
+  transition: 0.5s;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.Talk_Block{
+  height: 350px;
+  background-color:#7f7f7f;
+  border-radius: 20px;
+  width: 280px;
+}
+
+
+@media screen and (min-width: 200px) {
+  .slide {
+    width: 95%;
+    margin-left: 1%;
+  }
+  .main {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .btn {
+    margin-bottom: 10%;
+    width: 10rem;
+    padding: 4%;
+  }
+  .Talk_Block{
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    flex-direction: column;
+  }
+  .btn {
+    margin-bottom: 5%;
+    width: 10rem;
+    padding: 4%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .main {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn {
+    padding: 2%;
+  }
+}

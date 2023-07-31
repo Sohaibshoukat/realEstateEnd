@@ -1,0 +1,23 @@
+{
+    "DevName" : "Grand Palladium",
+    "DevLogo" : "https://seeklogo.com/images/G/grand-palladium-logo-FB165BB409-seeklogo.com.png",
+    "socialmediaAccount":[
+        {
+            "facebook":"https://www.facebook.com/GrandPalladiumVallarta/"
+        },
+        {
+            "instagram":"https://www.instagram.com/grandpalladiumvallarta/"
+        }
+    ],
+    "Overview":[
+        {
+            "Title":"ZAMEEN DEVELOPMENTS",
+            "Description":"Building upon EMPG’s credibility and transparency – two of the most significant aspects of property development – Zameen Developments envision a sweeping change in the real estate development sector of Pakistan. Upholding the principles of trust and integrity, Zameen Developments create value for its customers, investors, and partners alike."
+        },
+        {
+            "Title":"EARTHLINK DEVELOPMENTS",
+            "Description":"From its humble origins in the property business, Earthlink has branched out throughout the country offering incomparable and quality services in the real estate field. Luxurious yet affordable projects have been launched by the developer during the last two years that include The Grande I, II, III and Grande Business Centre."
+        }
+    ],
+    "rating":5
+}
